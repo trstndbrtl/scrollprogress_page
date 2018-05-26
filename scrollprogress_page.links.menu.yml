@@ -1,0 +1,6 @@
+scrollprogress_page.admin:
+  title: Scrollprogress settings
+  parent: system.admin_config_ui
+  description: Configure the the behaviro of Scrollprogress page module
+  route_name: scrollprogress_page.admin
+  weight: -9

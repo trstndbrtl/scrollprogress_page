@@ -1,0 +1,7 @@
+scrollprogress_page.admin:
+  path: 'admin/config/user-interface/scrollprogress-page'
+  defaults:
+    _form:  '\Drupal\scrollprogress_page\Form\ScrollProgressSettingsForm'
+    _title: 'ScrollProgress settings'
+  requirements:
+    _permission: 'configure scrollprogress page'

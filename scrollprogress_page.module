@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * Implements hook_page_preprocess_node().
+ */
+function scrollprogress_page_preprocess_node(&$variables) {
+  // Process all type of content
+  $typeContent = \Drupal::service('entity.manager')->getStorage('node_type')->loadMultiple();
+  // Prepare scrollprogress.settings
+  $config = \Drupal::config('scrollprogress.settings');
+  // for all content type
+  foreach ($typeContent as $ct) {
+    // Check if scrollprogress is activ
+    $default_activ = 'spp_'.$ct->id().'_activ';
+    $activ = $config->get($default_activ);
+    // If activ
+    if ($activ == 1) {
+      $default_color = 'spp_'.$ct->id().'_color';
+      $default_div = 'spp_'.$ct->id().'_div';
+      // Send variables to javascript 
+      $variables['#attached']['drupalSettings']['scrollprogress']['color'] = $config->get($default_color);
+      $variables['#attached']['drupalSettings']['scrollprogress']['div'] = $config->get($default_div);
+      // attach library scrollprogress 
+      $variables['#attached']['library'][] = 'scrollprogress_page/scrollprogress';
+    }
+  }
+}

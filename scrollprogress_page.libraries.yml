@@ -1,0 +1,21 @@
+scrollprogress:
+  css:
+    base:
+      css/scrollprogress-page.css: {}
+  js:
+    js/vendors/scrollProgress.js: {}
+    js/scrollprogress-page.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/jquery.cookie
+    - core/drupal
+    - core/drupal.displace
+    - core/drupal.ajax
+    - core/drupal.debounce
+    - core/drupalSettings
+
+scrollprogressadmin:
+  css:
+    base:
+      css/scrollprogress-page.css: {}

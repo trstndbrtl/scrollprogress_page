@@ -1,0 +1,5 @@
+name: 'Scrollprogress page'
+type: module
+description: 'Add Scrollprogress to page'
+core: 8.x
+package: 'MM'
