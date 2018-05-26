@@ -1,13 +1,8 @@
 ## Scrollprogress page
 
-<<<<<<< HEAD
 ![Scrollprogress Show](http://data.revuesdecode.com/revues/module/scrollpp/scrollprogress-page-2.png)
 
-> This module gives the possibility implement [scrollProgress Js](https://github.com/jeremenichelli/scrollProgress) library;
-
-=======
-> This module gives the possibility to implement [scrollProgress Js](https://github.com/jeremenichelli/scrollProgress) library on page by content type;
->>>>>>> ac4d490be8d981b0a956c70a2e409285f369144d
+> This module gives the possibility to implement [scrollProgress Js](https://github.com/jeremenichelli/scrollProgress) library on page by content type.
 
 ### Installation
 Install the module then go to the page to add a block. -> `/admin/config/user-interface/scrollprogress-page`
