@@ -1,7 +1,6 @@
 ## Scrollprogress page
 
-> This module gives the possibility implement [scrollProgress Js](https://github.com/jeremenichelli/scrollProgress) library;
-
+> This module gives the possibility to implement [scrollProgress Js](https://github.com/jeremenichelli/scrollProgress) library on page by content type;
 
 ### Installation
 Install the module then go to the page to add a block. -> `/admin/config/user-interface/scrollprogress-page`
