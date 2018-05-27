@@ -1,3 +1,7 @@
+body {
+    padding-bottom: 14px;
+}
+
 .progress-bar {
     bottom: 0;
     position: fixed;
